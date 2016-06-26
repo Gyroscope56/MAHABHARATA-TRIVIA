@@ -1,0 +1,26 @@
+
+[
+	{
+		"Q" : "Who wrote the Mahabharata?",
+		"Q #": "1",
+		"Answers": [
+			"Sage Vyasa",
+			"Sage Vishwamitra",
+			"Arjuna",
+			"Kubera, the lord of demigods"
+		],
+		"Correct Answer" : 0
+	},
+	{
+		"Q" : "How many Kauravas were there?",
+		"Q #": "2",
+		"Answers": [
+			"5",
+			"10",
+			"50",
+			"100"
+		], 
+		"Correct Answer" : 3
+	}
+]
+
