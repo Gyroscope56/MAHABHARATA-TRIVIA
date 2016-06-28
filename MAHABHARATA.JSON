@@ -54,6 +54,18 @@
 			"Ghadothkacha"
 		], 
 		"Correct Answer" : 2
+	},
+	,
+	{
+		"Q" : "Who was the evil uncle of Kauravas who rolled dice for them?",
+		"Q #": "6",
+		"Answers": [
+			"Shakuni",
+			"Kumar",
+			"Dushasana",
+			"Karna"
+		], 
+		"Correct Answer" : 0
 	}
 	
 ]
