@@ -32,6 +32,17 @@
 			"Draupadi"
 		], 
 		"Correct Answer" : 2
+	},
+		{
+		"Q" : "What was the name of Krishna's sister?",
+		"Q #": "4",
+		"Answers": [
+			"Draupadi",
+			"Subadra",
+			"Sunitha",
+			"Madhavi"
+		], 
+		"Correct Answer" : 1
 	}
 ]
 
