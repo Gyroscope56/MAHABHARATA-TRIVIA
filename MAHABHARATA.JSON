@@ -26,8 +26,8 @@
 		"Q" : "Who was Karna's mother?",
 		"Q #": "3",
 		"Answers": [
-			"Maadri",
-			"Gandari",
+			"Madri",
+			"Gandhari",
 			"Kunti",
 			"Draupadi"
 		], 
@@ -39,7 +39,7 @@
 		"Answers": [
 			"Draupadi",
 			"Subadra",
-			"Sunitha",
+			"Dushala",
 			"Madhavi"
 		], 
 		"Correct Answer" : 1
@@ -48,8 +48,8 @@
 		"Q" : "Name the asura who was the brother of Baka asura and friend of Hidimba?",
 		"Q #": "5",
 		"Answers": [
-			"Raavana",
-			"Sunil Kaki",
+			"Ravana",
+			"Maricha",
 			"Kirmira",
 			"Ghadothkacha"
 		], 

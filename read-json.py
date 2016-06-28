@@ -8,4 +8,11 @@ for i in data:
 	position = i["Correct Answer"]
 	qstr = "Question #" + i["Q #"] + ")"
 	print (qstr, i["Q"])
+	print ("Choices: ")
+	count = 0
+	for j in answers:
+		print (count,' : ',j)
+		count+=1
+
 	print ("Correct Answer:", answers[position])
+	print("\n")
