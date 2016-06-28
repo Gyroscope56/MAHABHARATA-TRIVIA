@@ -21,6 +21,17 @@
 			"100"
 		], 
 		"Correct Answer" : 3
+	},
+	{
+		"Q" : "Who was Karna's mother?",
+		"Q #": "3",
+		"Answers": [
+			"Maadri",
+			"Gandari",
+			"Kunti",
+			"Draupadi"
+		], 
+		"Correct Answer" : 2
 	}
 ]
 
