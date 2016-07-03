@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.test.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.triviaq.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/testgwt/greet</url-pattern>
+    <url-pattern>/triviaq/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>TestGwt.html</welcome-file>
+    <welcome-file>TriviaQGwt.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

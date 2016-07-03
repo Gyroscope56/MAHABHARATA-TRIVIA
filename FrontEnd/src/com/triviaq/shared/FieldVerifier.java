@@ -1,4 +1,4 @@
-package com.test.shared;
+package com.triviaq.shared;
 
 /**
  * <p>

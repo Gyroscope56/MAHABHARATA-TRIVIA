@@ -1,8 +1,8 @@
-package com.test.server;
+package com.triviaq.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-import com.test.client.GreetingService;
-import com.test.shared.FieldVerifier;
+import com.triviaq.client.GreetingService;
+import com.triviaq.shared.FieldVerifier;
 
 /**
  * The server-side implementation of the RPC service.

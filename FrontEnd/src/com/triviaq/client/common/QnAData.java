@@ -1,4 +1,4 @@
-package com.test.client.common;
+package com.triviaq.client.common;
 
 import java.io.Serializable;
 
