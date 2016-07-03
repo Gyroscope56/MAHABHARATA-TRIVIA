@@ -65,6 +65,18 @@
 			"Karna"
 		], 
 		"Correct Answer" : 0
+	},
+	{
+		"Q" : "Who was Duryodhana's sister?",
+		"Q #": "7",
+		"Answers": [
+			"Draupadi",
+			"Dushala",
+			"Devayani",
+			"Savitri",
+			"Damayanti"
+
+		],
+		"Correct Answer" : 1
 	}
-	
 ]
