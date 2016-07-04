@@ -16,12 +16,6 @@ public class TriviaQGwt implements EntryPoint {
             + "attempting to contact the server. Please check your network " + "connection and try again.";
 
     /**
-     * Create a remote service proxy to talk to the server-side Greeting
-     * service.
-     */
-    private final GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
-
-    /**
      * This is the entry point method.
      */
     public void onModuleLoad() {

@@ -18,12 +18,12 @@
     </m:MaterialRow>
     <m:MaterialRow >
      <m:MaterialColumn grid='6'>
-      <m:MaterialButton text="Prev" waves="LIGHT"
+      <m:MaterialButton ui:field="prevButton" text="Prev" waves="LIGHT"
        backgroundColor="blue" textColor="white" iconType="CHEVRON_LEFT"
        iconPosition="LEFT" />
      </m:MaterialColumn>
      <m:MaterialColumn grid='6' float="RIGHT">
-      <m:MaterialButton text="Next" waves="LIGHT"
+      <m:MaterialButton  ui:field="nextButton" text="Next" waves="LIGHT"
        backgroundColor="blue" textColor="white" iconType="CHEVRON_RIGHT"
        iconPosition="RIGHT" />
      </m:MaterialColumn>
