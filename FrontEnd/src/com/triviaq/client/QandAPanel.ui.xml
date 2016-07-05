@@ -9,6 +9,20 @@
  }
  </ui:style>
  <g:HTMLPanel>
+ <header>
+  <m:MaterialNavBar activates="sideNav" backgroundColor="blue" type="FIXED">
+   <m:MaterialNavSection>
+    <m:MaterialTooltip text="Menu">
+     <m:MaterialLink iconType="SEARCH" textColor="white" />
+    </m:MaterialTooltip>
+   </m:MaterialNavSection>
+  </m:MaterialNavBar>
+
+<m:MaterialSideNav type="FIXED" m:id="sideNav" closeOnClick="true">
+ <m:MaterialLink ui:field="addQuestions" text="Apps" iconType="VIEW_MODULE"></m:MaterialLink>
+</m:MaterialSideNav>
+ </header>
+
   <m:MaterialPanel addStyleNames="valign-wrapper">
    <m:MaterialColumn>
     <m:MaterialRow>
@@ -16,15 +30,15 @@
       textAlign="CENTER">Mahabharata Triva Questions</m:MaterialLabel>
      <m:MaterialPanel ui:field="qnaWidgetHolder"></m:MaterialPanel>
     </m:MaterialRow>
-    <m:MaterialRow >
+    <m:MaterialRow>
      <m:MaterialColumn grid='6'>
-      <m:MaterialButton ui:field="prevButton" text="Prev" waves="LIGHT"
-       backgroundColor="blue" textColor="white" iconType="CHEVRON_LEFT"
+      <m:MaterialButton ui:field="prevButton" text="Prev"
+       waves="LIGHT" backgroundColor="blue" textColor="white" iconType="CHEVRON_LEFT"
        iconPosition="LEFT" />
      </m:MaterialColumn>
      <m:MaterialColumn grid='6' float="RIGHT">
-      <m:MaterialButton  ui:field="nextButton" text="Next" waves="LIGHT"
-       backgroundColor="blue" textColor="white" iconType="CHEVRON_RIGHT"
+      <m:MaterialButton ui:field="nextButton" text="Next"
+       waves="LIGHT" backgroundColor="blue" textColor="white" iconType="CHEVRON_RIGHT"
        iconPosition="RIGHT" />
      </m:MaterialColumn>
     </m:MaterialRow>
