@@ -45,7 +45,7 @@
 		"Correct Answer" : 1
 	},
 	{
-		"Q" : "Name the asura who was the brother of Baka asura and friend of Hidimba?",
+		"Q" : "Name the asura who was the brother of Bakasura and friend of Hidimba?",
 		"Q #": "5",
 		"Answers": [
 			"Ravana",
@@ -78,5 +78,17 @@
 
 		],
 		"Correct Answer" : 1
+	},
+	{
+		"Q" : "How long was the period of exile (Vanavas) for the Pandavas?",
+	"Q #": "8",
+	"Answers": [
+		"15 years",
+		"20 years",
+		"13 years",
+		"14 years"
+		],
+	"Correct Answer" : 2
+
 	}
 ]
