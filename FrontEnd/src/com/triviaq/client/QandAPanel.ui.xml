@@ -7,22 +7,22 @@
  	font-weight: bold;
  	font-size: 2em;
  }
+ .footer{
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+            padding-top: 80px !important;
+        }
  </ui:style>
  <g:HTMLPanel>
  <header>
-  <m:MaterialNavBar activates="sideNav" backgroundColor="blue" type="FIXED">
-   <m:MaterialNavSection>
-    <m:MaterialTooltip text="Menu">
-     <m:MaterialLink iconType="SEARCH" textColor="white" />
-    </m:MaterialTooltip>
-   </m:MaterialNavSection>
+  <m:MaterialNavBar activates="sideNav" backgroundColor="blue" type="TALL">
   </m:MaterialNavBar>
 
-<m:MaterialSideNav type="FIXED" m:id="sideNav" closeOnClick="true">
+<m:MaterialSideNav type="PUSH" m:id="sideNav" closeOnClick="true">
  <m:MaterialLink ui:field="addQuestions" text="Apps" iconType="VIEW_MODULE"></m:MaterialLink>
 </m:MaterialSideNav>
- </header>
-
+</header>
   <m:MaterialPanel addStyleNames="valign-wrapper">
    <m:MaterialColumn>
     <m:MaterialRow>
